@@ -1,0 +1,80 @@
+.home{
+    height: 90vh;
+    display: flex;
+    padding-top: 5%;
+    align-items: left;
+    color: aliceblue;
+    flex-direction: column;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+    }
+
+.headerContainer{
+    width: auto;
+    margin-left: 30px;
+}
+
+.home .headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.home .headerContainer p{
+    margin-top: 10px;
+    padding: 0;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.headerContainer button{
+    border: none;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.headerContainer button:hover{
+background-color: wheat;
+cursor: pointer;
+transition: 0.2s ease-out;
+}
+
+/*mobile view*/
+
+@media only screen and (max-width:600px){
+    .home{
+      
+        background-size: 600px;
+    }
+    .headerContainer{
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .home .headerContainer h1{
+        font-size: 40px;
+        height: 30px;
+        margin: 15px 0px;
+    }
+    .home .headerContainer p{
+        font-size: 20px;
+    }
+    .home .headerContainer button{
+      font-size: smaller;
+      width: 8rem;
+    }
+     button{
+        background-color: wheat;
+     }
+}

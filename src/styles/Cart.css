@@ -1,0 +1,70 @@
+.tableContainer{
+    
+    background-image: url("https://transparenttextures.com/patterns/black-thread-light.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.removeBtn{
+  margin-bottom: 50px;
+}
+.image img{
+    
+    border-radius: 30%;
+}
+.td1{
+    color: green;
+
+}
+
+
+button{
+    cursor: pointer;
+    
+}
+
+.buttonPM{
+    margin-top: 30px;
+}
+.Price{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width:600px) {
+    .remove{
+        width: 2.1rem;
+        height: 1.5rem;
+        font-size: .5rem;
+    }
+    .td3{
+        font-size: small;
+    }
+    .td2{
+        color: rgb(47, 46, 46);
+        font-size: small;
+    }
+    .Price h2{
+        font-size: medium;
+    }
+    .rupee{
+        font-size: smaller;
+    }
+    .buy{
+        
+        font-size: x-small;
+    
+    }
+    .tableContainer{
+        margin-left: 0px;
+    }
+    
+
+}
+   
+
+    
