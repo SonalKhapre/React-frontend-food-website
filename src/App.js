@@ -11,9 +11,9 @@ function App() {
   return (
     <div>
     <CartProvider>
-   <BrowserRouter basename='frontend-project-restaurant'>
+   <BrowserRouter basename='/frontend-project-restaurant'>
     <Routes>
-      <Route path="/" element={ <Home /> } />
+      <Route exact path="/" element={ <Home/>} />
       <Route path="/about" element={ <About /> }/>
       <Route path="/contact" element={ <Contact /> }/>
       <Route path="/menu" element={ <Menu /> }/>
