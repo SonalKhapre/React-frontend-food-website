@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import {Route, Routes} from 'react-router'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
@@ -11,16 +11,13 @@ function App() {
   return (
     <div>
     <CartProvider>
-   <BrowserRouter basename="/frontend-project-restaurant">
-    <Routes>
+      <Routes>
       <Route exact path="/" element={ <Home/>} />
       <Route path="/about" element={ <About /> }/>
       <Route path="/contact" element={ <Contact /> }/>
       <Route path="/menu" element={ <Menu /> }/>
       <Route path="/cart" element={<Cart />} />
-      <Route path="*" element={<Home/>}/>
-     </Routes>
-   </BrowserRouter>
+      </Routes>
    </CartProvider>
     </div>
   );
