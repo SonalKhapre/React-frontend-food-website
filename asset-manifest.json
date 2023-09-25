@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/React-frontend-food-website/static/css/main.9763d04a.css",
+    "main.js": "/React-frontend-food-website/static/js/main.d470910c.js",
+    "static/media/banner.jpg": "/React-frontend-food-website/static/media/banner.2868b4ffd33c64db9dde.jpg",
+    "static/media/Chiken-Fried-Rice.jpg": "/React-frontend-food-website/static/media/Chiken-Fried-Rice.013c2c96a75b7b8b0d63.jpg",
+    "static/media/Chow-Mein.jpg": "/React-frontend-food-website/static/media/Chow-Mein.41a1c6e57424c30205a0.jpg",
+    "static/media/hot-pot.jpg": "/React-frontend-food-website/static/media/hot-pot.8d2ed682b61d2cba00b7.jpg",
+    "static/media/Mapo-Tofu.jpg": "/React-frontend-food-website/static/media/Mapo-Tofu.93ac14601d03e7e4c157.jpg",
+    "static/media/spring roll.jpg": "/React-frontend-food-website/static/media/spring roll.f1fb1f4138c9681b5ccb.jpg",
+    "static/media/wonton-noodle.jpg": "/React-frontend-food-website/static/media/wonton-noodle.47dacbe15c51ac288b32.jpg",
+    "index.html": "/React-frontend-food-website/index.html",
+    "main.9763d04a.css.map": "/React-frontend-food-website/static/css/main.9763d04a.css.map",
+    "main.d470910c.js.map": "/React-frontend-food-website/static/js/main.d470910c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9763d04a.css",
+    "static/js/main.d470910c.js"
+  ]
+}
