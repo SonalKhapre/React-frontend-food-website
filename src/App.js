@@ -5,6 +5,7 @@ import Contact from './Pages/Contact'
 import Menu from './Pages/Menu'
 import Cart from './Pages/Cart'
 import {CartProvider} from 'react-use-cart'
+import PageNotFound from './Pages/PageNotFound'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/contact" element={ <Contact /> }/>
       <Route path="/menu" element={ <Menu /> }/>
       <Route path="/cart" element={<Cart />} />
+      <Route path="*" element={<PageNotFound/>}/>
       </Routes>
    </CartProvider>
     </div>

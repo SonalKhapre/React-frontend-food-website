@@ -9,10 +9,6 @@ import Login from '../components/Login'
 const Home = () => {
   const navigate = useNavigate();
 
-  // const handleOrderClick = () => {
-  //   // Navigate to the menu page
-  //   navigate('/menu');
-  // };
   const handleOrderClick = () => {
     console.log('Order button clicked');
     navigate('/menu');

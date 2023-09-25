@@ -30,7 +30,7 @@ const Menu = () => {
 
         <Box display={'flex'} flexWrap={'wrap'} justifyContent={'center'}>
         
-        {/* <a href='/cart'>GO TO CART</a> */}
+        
        
 
         {
